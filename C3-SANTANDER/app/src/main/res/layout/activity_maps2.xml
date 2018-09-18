@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapsActivity2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cambiarM"
+            android:textColor="#fff"
+            android:text="Cambiar mapa"
+            android:layout_weight="1"
+            android:layout_marginRight="3dp"
+            android:textAllCaps="false"
+            android:background="@color/colorPrimary"
+            android:onClick="cambiarM"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trafico"
+            android:textColor="#fff"
+            android:text="Ver tráfico"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:onClick="verT"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipo"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+    />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppTuristica</string>
+    <string name="title_activity_menus">Menus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps_activit1">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="descripcon">Turisapp es una aplicacion turistica que te permite mostrar la informacion
+    del departamento, con esta herramienta se pretende brindar una alternativa a los visitantes para que
+    puedan consultar tanto sitios turisticos como hoteles, restaurantes, y centros comerciales vinculados con la entidad.</string>
+</resources>
